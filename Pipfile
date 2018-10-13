@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygithub = "*"
+pip = "==18.0"
+click = "*"
+"psycopg2-binary" = "*"
+backoff = "*"
+"psycopg2" = "*"
+
+[dev-packages]
+ipython = "*"
+
+[requires]
+python_version = "3.7"
